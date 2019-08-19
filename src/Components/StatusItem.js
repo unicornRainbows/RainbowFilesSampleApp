@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, Dimensions, TouchableOpacity } from 'react-nati
 
 class StatusItem extends React.PureComponent {
   _onPress = () => {
-    this.props.onPressCancel()
+    this.props.onPress()
   };
 
   render() {
@@ -36,7 +36,7 @@ class StatusItem extends React.PureComponent {
         <Text style={styles.font}>{uri}</Text>
         <Text style={styles.font}>{localFilePath}</Text>
 
-        <TouchableOpacity style={styles.button} onPress={this.onPressCancel}>
+        <TouchableOpacity style={styles.button} onPress={this._onPress}>
           <Text style={styles.font}>Cancel</Text>
         </TouchableOpacity>
       </View>

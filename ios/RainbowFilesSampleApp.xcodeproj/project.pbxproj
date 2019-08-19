@@ -19,8 +19,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RainbowFilesSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RainbowFilesSampleAppTests.m */; };
 		5A0343BE0A849F8A2DEF3AEB /* libPods-RainbowFilesSampleApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD75AF13A7DAAC7DCCC18650 /* libPods-RainbowFilesSampleApp-tvOSTests.a */; };
-		60C31B36230B43490098EC03 /* libRNRainbowFilesManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C31B35230B43420098EC03 /* libRNRainbowFilesManager.a */; };
-		60C31B6A230B44E60098EC03 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C31B4B230B44D60098EC03 /* libReact.a */; };
+		60C31B87230B4A640098EC03 /* libRNRainbowFilesManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C31B86230B4A4A0098EC03 /* libRNRainbowFilesManager.a */; };
 		A262F35A98E317D1D79E1890 /* libPods-RainbowFilesSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAE642AB7CE0CD18C6786D9 /* libPods-RainbowFilesSampleApp.a */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +37,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "RainbowFilesSampleApp-tvOS";
-		};
-		60C31B34230B43420098EC03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60C31B30230B43420098EC03 /* RNRainbowFilesManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNRainbowFilesManager;
 		};
 		60C31B4A230B44D60098EC03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -158,6 +150,13 @@
 			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
 			remoteInfo = "jsiexecutor-tvOS";
 		};
+		60C31B85230B4A4A0098EC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C31B81230B4A4A0098EC03 /* RNRainbowFilesManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNRainbowFilesManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -180,8 +179,8 @@
 		39E1353EB1C468C2CE3B2DF8 /* libPods-RainbowFilesSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainbowFilesSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443CA368D07B9F111D3316D4 /* Pods-RainbowFilesSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowFilesSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-RainbowFilesSampleAppTests/Pods-RainbowFilesSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		548DB27A46BFF0296EC23D11 /* Pods-RainbowFilesSampleApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowFilesSampleApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RainbowFilesSampleApp-tvOSTests/Pods-RainbowFilesSampleApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		60C31B30230B43420098EC03 /* RNRainbowFilesManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNRainbowFilesManager.xcodeproj; path = ../../RainbowFilesManager/ios/RNRainbowFilesManager.xcodeproj; sourceTree = "<group>"; };
 		60C31B37230B44D60098EC03 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		60C31B81230B4A4A0098EC03 /* RNRainbowFilesManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNRainbowFilesManager.xcodeproj; path = ../../RainbowFilesManager/ios/RNRainbowFilesManager.xcodeproj; sourceTree = "<group>"; };
 		7658B914953FF363D88D39F8 /* Pods-RainbowFilesSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowFilesSampleApp.release.xcconfig"; path = "Target Support Files/Pods-RainbowFilesSampleApp/Pods-RainbowFilesSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		857203F50D204751AAB48458 /* Pods-RainbowFilesSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowFilesSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-RainbowFilesSampleApp/Pods-RainbowFilesSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		926C37D63EA1BFE910443764 /* Pods-RainbowFilesSampleApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowFilesSampleApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RainbowFilesSampleApp-tvOSTests/Pods-RainbowFilesSampleApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,8 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C31B6A230B44E60098EC03 /* libReact.a in Frameworks */,
-				60C31B36230B43490098EC03 /* libRNRainbowFilesManager.a in Frameworks */,
+				60C31B87230B4A640098EC03 /* libRNRainbowFilesManager.a in Frameworks */,
 				A262F35A98E317D1D79E1890 /* libPods-RainbowFilesSampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,14 +272,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		60C31B31230B43420098EC03 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				60C31B35230B43420098EC03 /* libRNRainbowFilesManager.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		60C31B38230B44D60098EC03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,11 +295,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		60C31B82230B4A4A0098EC03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C31B86230B4A4A0098EC03 /* libRNRainbowFilesManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				60C31B81230B4A4A0098EC03 /* RNRainbowFilesManager.xcodeproj */,
 				60C31B37230B44D60098EC03 /* React.xcodeproj */,
-				60C31B30230B43420098EC03 /* RNRainbowFilesManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -481,8 +479,8 @@
 					ProjectRef = 60C31B37230B44D60098EC03 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 60C31B31230B43420098EC03 /* Products */;
-					ProjectRef = 60C31B30230B43420098EC03 /* RNRainbowFilesManager.xcodeproj */;
+					ProductGroup = 60C31B82230B4A4A0098EC03 /* Products */;
+					ProjectRef = 60C31B81230B4A4A0098EC03 /* RNRainbowFilesManager.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -496,13 +494,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		60C31B35230B43420098EC03 /* libRNRainbowFilesManager.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNRainbowFilesManager.a;
-			remoteRef = 60C31B34230B43420098EC03 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		60C31B4B230B44D60098EC03 /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -613,6 +604,13 @@
 			fileType = archive.ar;
 			path = "libjsiexecutor-tvOS.a";
 			remoteRef = 60C31B68230B44D60098EC03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60C31B86230B4A4A0098EC03 /* libRNRainbowFilesManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNRainbowFilesManager.a;
+			remoteRef = 60C31B85230B4A4A0098EC03 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

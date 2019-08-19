@@ -24,7 +24,9 @@ import {
 import BasicButton from './src/Components/BasicButton'
 import StatusItem from './src/Components/StatusItem'
 import RNRainbowFilesManager from 'react-native-rainbow-files-manager';
-//RNRainbowFilesManager
+
+
+
 
 
 const App = () => {
@@ -73,7 +75,7 @@ const App = () => {
                 {bulletPoints.map(item => (
                   <StatusItem
                     item={item}
-                    onPress={(e) => console.log("push: ", e)}
+                    onPress={() => RNRainbowFilesManager.show("hello")}
                   />
 
 
@@ -113,6 +115,7 @@ const App = () => {
       </SafeAreaView>
     </Fragment>
   );
+
 };
 
 const styles = StyleSheet.create({
