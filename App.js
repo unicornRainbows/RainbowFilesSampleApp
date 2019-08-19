@@ -31,7 +31,7 @@ import RNRainbowFilesManager from 'react-native-rainbow-files-manager';
 
 const App = () => {
   let bulletPoints = [
-    { id: 1, uri: 'http', localFilePath: './song.wav', status: '0' },
+    { id: 1, uri: 'https://hackernoon.com/hn-images/0*4ty0Adbdg4dsVBo3.png', localFilePath: './song.wav', status: '0' },
     { id: 2, uri: 'http', localFilePath: './asssets/movie.avi', status: '1' },
     { id: 3, uri: 'http', localFilePath: './asssets/doc.docx', status: '2' },
     { id: 3, uri: 'http', localFilePath: './asssets/doc.docx', status: '3' },
@@ -75,11 +75,8 @@ const App = () => {
                 {bulletPoints.map(item => (
                   <StatusItem
                     item={item}
-                    onPress={() => RNRainbowFilesManager.show("hello")}
+                    onPress={(e) => RNRainbowFilesManager.downloadFile(e)}
                   />
-
-
-
                 ))}
               </View>
             </View>

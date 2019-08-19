@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, Dimensions, TouchableOpacity } from 'react-nati
 
 class StatusItem extends React.PureComponent {
   _onPress = () => {
-    this.props.onPress()
+    this.props.onPress(this.props.item.uri)
   };
 
   render() {
@@ -33,7 +33,7 @@ class StatusItem extends React.PureComponent {
     return (
       <View style={[styles.itemContainer, { backgroundColor: backgroundColor }]}>
         <Text style={styles.font}>{id}</Text>
-        <Text style={styles.font}>{uri}</Text>
+        <Text style={styles.font}>{uri.substring(0, 16)}</Text>
         <Text style={styles.font}>{localFilePath}</Text>
 
         <TouchableOpacity style={styles.button} onPress={this._onPress}>
