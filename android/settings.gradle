@@ -1,3 +1,5 @@
 rootProject.name = 'RainbowFilesSampleApp'
+include ':react-native-rainbow-files-manager'
+project(':react-native-rainbow-files-manager').projectDir = new File(rootProject.projectDir, '../../RainbowFilesManager/android')
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'

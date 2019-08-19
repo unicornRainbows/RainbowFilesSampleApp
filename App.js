@@ -23,7 +23,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import BasicButton from './src/Components/BasicButton'
 import StatusItem from './src/Components/StatusItem'
-
+import RNRainbowFilesManager from 'react-native-rainbow-files-manager';
+//RNRainbowFilesManager
 
 
 const App = () => {
