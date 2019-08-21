@@ -31,7 +31,7 @@ class StatusItem extends React.PureComponent {
         break;
     }
     return (
-      <View style={[styles.itemContainer, { backgroundColor: backgroundColor }]}>
+      <View style={[styles.itemContainer, { backgroundColor }]}>
         <Text style={styles.font}>{id}</Text>
         <Text style={styles.font}>{uri.substring(0, 16)}</Text>
         <Text style={styles.font}>{localFilePath}</Text>

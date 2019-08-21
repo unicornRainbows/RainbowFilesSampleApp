@@ -90,7 +90,11 @@ const App = () => {
               </Text>
               <BasicButton
                 title="MUSIC TRACK A"
-                onPress={() => console.log("push")}
+                onPress={() =>
+                  RNRainbowFilesManager.uploadFile(
+                    'https://hackernoon.com/hn-images/0*4ty0Adbdg4dsVBo3.png',
+                  )
+                }
               />
             </View>
 
